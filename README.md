@@ -41,10 +41,18 @@ Table Name: score
 | create_at	| DateTime  |-        | -           |CURRENT_DATETIEM| -              |-            |        -    |
 | delete_flg	| tinyint   |1        | -           |0| -              |-            |        -    |
 
+“application.property” files contains the configuration information for DB setup. Please change password if needed. Property file resides inside resource package.
 
-== Test the Service
+## API Documentation
 
-Now that the service is up, visit `http://localhost:8080/greeting`, where you should see:
+### 1.	GET Score by ID
+
+METHOD  :	POST
+
+URL	    : http://localhost:8080/play/score/
+
+Comment : Requirement document describes that request and response should be delivered on payload.  So, method is POST and request id will be given in payload.
+
 
 ====
 [source,json]
