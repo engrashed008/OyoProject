@@ -44,14 +44,22 @@ NOTE: This application uses the https://github.com/FasterXML/jackson[Jackson JSO
 automatically marshal instances of type `Greeting` into JSON. Jackson is included by default by the web starter.
 ====
 
-== Tools and Technologies
+== DB Table
 
-In Spring's approach to building RESTful web services, HTTP requests are handled by a
-controller. These components are identified by the
-https://docs.spring.io/spring/docs/{spring_version}/javadoc-api/org/springframework/web/bind/annotation/RestController.html[`@RestController`]
-annotation, and the `GreetingController` shown in the following listing (from
-`src/main/java/com/example/restservice/GreetingController.java`) handles `GET` requests
-for `/greeting` by returning a new instance of the `Greeting` class:
+====
+DB Name :	playscore
+====
+Table Name :	score
+Column Name |	Data Type |	Size |	Null |	Default	| Auto Increment |	Primary key |	Comments
+score_id	  | Int	11	 		
+
+
+score	int		 	0			
+name	Varchar	100	 
+			
+created_at	datetime		 	CURRENT_TIMESTAMP			
+delete_flg	tinyInt	1	 	0			
+
 
 ====
 [source,java]
