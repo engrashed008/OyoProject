@@ -1,23 +1,12 @@
-:spring_version: current
-:toc:
-:project_id: gs-rest-service
-:spring_version: current
-:spring_boot_version: 2.3.2.RELEASE
-:icons: font
-:source-highlighter: prettify
-
-This guide walks you through the process of creating a "`Hello, World`" RESTful web
-service with Spring.
-
 ### Project Title
 
 Top Score Ranking
 
-== Getting Started
+### Getting Started
 
 This instruction will give some details insight of how to install, run and test the Top Score Ranking sample project. Both Unit tests and Integration tests have been executed on Postman and curl. Please have a look deployment note to know how to import and run the project and conduct test cases locally.
 
-== Tools and Technologies
+### Tools and Technologies
 
 1.	Java 8 (1.8.0_211)
 2.	Gradle 6 (6.7.1)
@@ -28,8 +17,7 @@ This instruction will give some details insight of how to install, run and test 
 7.	Postman (v.7.36.1)
 8.	MacOS (Big Sur)
 
-[[initial]]
-== Deployment
+### Deployment
 
 1.	Download / Clone “Score Project” from GitHub.
 2.	Run IntelliJ and “open” project from IntelliJ
@@ -39,18 +27,20 @@ This instruction will give some details insight of how to install, run and test 
 6.	To run Unit test, please right click on “ScoreServiceTests” class under “test -> java -> com -> sample -> play” packages and click on “run”. Also, individual test case can be run inside the “ScoreServiceTests” file.
 7.	To run Controller Integration test, please right click on “ScoreControllerIntegrationTest” class under “test -> java -> com -> sample -> play” packages and click on “run”.
 
-====
-NOTE: This application uses the https://github.com/FasterXML/jackson[Jackson JSON] library to
-automatically marshal instances of type `Greeting` into JSON. Jackson is included by default by the web starter.
-====
-
-== DB Table
+### DB Table
 
 DB Name: playscore
 
 Table Name: score
 
-|Column Name|Data Type|	Size |	Null |	Default	| Auto Increment |	Primary key |	Comments
+| Syntax      | Description | Syntax      | Description |Syntax      | Description | Syntax      | Description |Description |
+| ----------- | ----------- | ----------- | ----------- |----------- | ----------- | ----------- | ----------- |----------- |
+| Header      | Title       | Header      | Title       |Header      | Title       | Header      | Title       |Title       |
+| Paragraph   | Text        |Paragraph   | Text        |Paragraph   | Text        |Paragraph   | Text        |Text        |
+
+
+|Column Name|Data Type|	Size |Null |Default|Auto Increment |Primary key |Comments|
+|---|---|---|---|---|---|---|---|---|
 |score_id   | Int	11	 		
 
 
