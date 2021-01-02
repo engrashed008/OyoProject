@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sample.play.mapper.playscore.ScoreMapper">
+
+    <select id="getById" resultType="com.sample.play.entity.ScoreEntity">
+        SELECT *
+        FROM score
+        WHERE score_id = #{id} AND delete_flg = false
+    </select>
+
+    <select id="getByName" resultType="com.sample.play.entity.ScoreEntity">
+        <bind name="pattern" value="'%' + _parameter.player + '%'" />
+        SELECT *
+        FROM score
+        WHERE name LIKE #{pattern}
+          AND delete_flg = false
+    </select>
+
+    <insert id="create">
+        INSERT INTO score (name, score, created_at)
+        VALUES (#{name}, #{score}, #{createdAt})
+    </insert>
+
+    <update id="update">
+        UPDATE score
+        SET delete_flg = true
+        WHERE score_id = #{id}
+    </update>
+
+    <select id="getScoreList" resultType="com.sample.play.resonse.ScoreReponseDto">
+        SELECT score_id, name, score
+        FROM score
+        WHERE delete_flg = false
+        <if test="beforeTime != null">
+            AND created_at &lt; #{beforeTime}
+        </if>
+
+        <if test="afterTime != null">
+            AND created_at > #{afterTime}
+        </if>
+
+        <if test="playerName.size()> 0">
+            AND
+           <foreach item="player" collection="playerName" open="(" separator="OR" close=")">
+               name LIKE
+                "%"#{player}"%"
+            </foreach>
+        </if>
+    </select>
+</mapper>
