@@ -38,7 +38,7 @@ Table Name: score
 | score_id      | int       | 11      | -           |-           | Yes            | Yes         |  -          |
 | score         | int       |         | -           |0           | -              | --          |   -         |
 | name	        | Varchar   |100      | Yes         |-           | -              |-            | -           |
-| create_at	| DateTime  |-        | -           |CURRENT_DATETIEM| -              |-            |        -    |
+| create_at	| DateTime  |-        | -           |CURRENT_DATETIME| -              |-            |        -    |
 | delete_flg	| tinyint   |1        | -           |0| -              |-            |        -    |
 
 “application.property” files contains the configuration information for DB setup. Please change password if needed. Property file resides inside resource package.
@@ -59,4 +59,22 @@ Request Json :
    "id": 1
 }
 ```
+
+Response Json :
+```
+{
+    "code": 200,
+    "errCode": null,
+    "messages": [
+        "OK"
+    ],
+    "errItems": null,
+    "result": {
+        "scoreId": 1,
+        "name": "Rashed",
+        "score": 500
+    }
+}
+```
+
 
