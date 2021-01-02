@@ -11,37 +11,7 @@ service with Spring.
 
 == Project Title
 
-You will build a service that will accept HTTP GET requests at
-`http://localhost:8080/greeting`.
-
-It will respond with a JSON representation of a greeting, as the following listing shows:
-
-====
-[source,json]
-----
-{"id":1,"content":"Hello, World!"}
-----
-====
-
-You can customize the greeting with an optional `name` parameter in the query string, as
-the following listing shows:
-
-====
-[source,text]
-----
-http://localhost:8080/greeting?name=User
-----
-====
-
-The `name` parameter value overrides the default value of `World` and is reflected in the
-response, as the following listing shows:
-
-====
-[source,json]
-----
-{"id":1,"content":"Hello, User!"}
-----
-====
+Top Score Ranking
 
 == Getting Started
 
@@ -51,7 +21,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/how_to_complete_this_guide.adoc[]
 
 [[scratch]]
-== Starting with Spring Initialize
+== Tools and Technologies
 
 For all Spring applications, you should start with the https://start.spring.io[Spring
 Initializr]. The Initializr offers a fast way to pull in all the dependencies you need for
@@ -203,30 +173,6 @@ Notice also how the `id` attribute has changed from `1` to `2`. This proves that
 working against the same `GreetingController` instance across multiple requests and that
 its `counter` field is being incremented on each call as expected.
 
-== Summary
+== Note
 
 Congratulations! You have just developed a RESTful web service with Spring.
-
-== See Also
-
-The following guides may also be helpful:
-
-* https://spring.io/guides/gs/accessing-gemfire-data-rest/[Accessing GemFire Data with REST]
-* https://spring.io/guides/gs/accessing-mongodb-data-rest/[Accessing MongoDB Data with REST]
-* https://spring.io/guides/gs/accessing-data-mysql/[Accessing data with MySQL]
-* https://spring.io/guides/gs/accessing-data-rest/[Accessing JPA Data with REST]
-* https://spring.io/guides/gs/accessing-neo4j-data-rest/[Accessing Neo4j Data with REST]
-* https://spring.io/guides/gs/consuming-rest/[Consuming a RESTful Web Service]
-* https://spring.io/guides/gs/consuming-rest-angularjs/[Consuming a RESTful Web Service with AngularJS]
-* https://spring.io/guides/gs/consuming-rest-jquery/[Consuming a RESTful Web Service with jQuery]
-* https://spring.io/guides/gs/consuming-rest-restjs/[Consuming a RESTful Web Service with rest.js]
-* https://spring.io/guides/gs/securing-web/[Securing a Web Application]
-* https://spring.io/guides/tutorials/rest/[Building REST services with Spring]
-* https://spring.io/guides/tutorials/react-and-spring-data-rest/[React.js and Spring Data REST]
-* https://spring.io/guides/gs/spring-boot/[Building an Application with Spring Boot]
-* https://spring.io/guides/gs/testing-restdocs/[Creating API Documentation with Restdocs]
-* https://spring.io/guides/gs/rest-service-cors/[Enabling Cross Origin Requests for a RESTful Web Service]
-* https://spring.io/guides/gs/rest-hateoas/[Building a Hypermedia-Driven RESTful Web Service]
-* https://spring.io/guides/gs/circuit-breaker/[Circuit Breaker]
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
