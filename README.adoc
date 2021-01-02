@@ -46,6 +46,12 @@ automatically marshal instances of type `Greeting` into JSON. Jackson is include
 
 == DB Table
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+
 DB Name: playscore
 Table Name: score
 
