@@ -38,7 +38,7 @@ Table Name: score
 | score_id      | int       | 11      | -           |-           | Yes            | Yes         |  -          |
 | score         | int       |         | -           |0           | -              | --          |   -         |
 | name	        | Varchar   |100      | Yes         |-           | -              |-            | -           |
-| create_at	| DateTime  |-        | -           |CURRENT_DATETIME| -              |-            |        -    |
+| created_at	| DateTime  |-        | -           |CURRENT_DATETIME| -              |-            |        -    |
 | delete_flg	| tinyint   |1        | -           |0| -              |-            |        -    |
 
 “application.property” files contains the configuration information for DB setup. Please change password if needed. Property file resides inside resource package.
@@ -132,34 +132,6 @@ Response Json :
 }
 ```
 
-
-METHOD  :	POST
-
-URL	    : http://localhost:8080/play/score/create
-
-Request Json : 
-```
-{
-   "player" : "Rashed",
-    "score" : 10,
-    "createdAt": "2020-12-28 12:40:50"
-}
-```
-
-Response Json :
-```
-{
-    
-    "code": 200,
-    "errCode": null,
-    "messages": [
-        "OK"
-    ],
-    "errItems": null,
-    "result": null
-}
-```
-
 ### 4.   Get Score List
 
 METHOD  :	POST  
@@ -224,5 +196,53 @@ Response Json :
     }
 }
 ```
+
+### 5.  Player Score History
+
+METHOD  :	POST
+
+URL	    : http://localhost:8080/play/score/history
+
+Request Json : 
+```
+{
+   "player" : "rashed"
+}
+```
+
+Response Json :
+```
+{
+     "code": 200,
+    "errCode": null,
+    "messages": [
+        "OK"
+    ],
+    "errItems": null,
+    "result": {
+        "topScore": 500,
+        "topScoreTime": "2020-12-25 00:00:00",
+        "lowScore": 10,
+        "lowScoreTime": "2020-12-28 12:40:50",
+        "averageScore": 218,
+        "allScores": [
+            500,
+            300,
+            270,
+            10,
+            10
+        ],
+        "player": "rashed"
+    }
+}
+```
+
+## Note
+1.	To keep simplicity auto increment number is used as id starting from 1. 
+2.	Trying to keep simplicity of code to follow K.I.S.S
+3.	DateTime format “yyyy-MM-dd hh:mm:ss” is implemented.
+4.	In sample project, player name is used to fetch player score history. In real project it is assumed that player ID will be used to fetch history and other relevant cases.
+5.	Integration test conducted on existing score table. No separate configuration files or tables are used due to sample project.
+
 
 
