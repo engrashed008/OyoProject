@@ -238,7 +238,7 @@ Response Json :
 ```
 
 ## Note
-1.	To keep simplicity auto increment number is used as id starting from 1. 
+1.	To keep simplicity auto increment number is used as id starting from 1. In use case, UUID might be used for ID.
 2.	Trying to keep simplicity of code to follow K.I.S.S
 3.	DateTime format “yyyy-MM-dd hh:mm:ss” is implemented.
 4.	In sample project, player name is used to fetch player score history. In real project it is assumed that player ID will be used to fetch history and other relevant cases.
