@@ -77,4 +77,152 @@ Response Json :
 }
 ```
 
+### 2.   Create Score
+
+METHOD  :	POST
+
+URL	    : http://localhost:8080/play/score/create
+
+Request Json : 
+```
+{
+   "player" : "Rashed",
+    "score" : 10,
+    "createdAt": "2020-12-28 12:40:50"
+}
+```
+
+Response Json :
+```
+{
+    
+    "code": 200,
+    "errCode": null,
+    "messages": [
+        "OK"
+    ],
+    "errItems": null,
+    "result": null
+}
+```
+
+### 3.   Delete Score
+
+METHOD  :	DELETE
+
+URL	    : http://localhost:8080/play/score/delete
+
+Request Json : 
+```
+{
+   "id" : 100
+}
+```
+
+Response Json :
+```
+{
+     "code": 200,
+    "errCode": null,
+    "messages": [
+        "OK"
+    ],
+    "errItems": null,
+    "result": null
+}
+```
+
+
+METHOD  :	POST
+
+URL	    : http://localhost:8080/play/score/create
+
+Request Json : 
+```
+{
+   "player" : "Rashed",
+    "score" : 10,
+    "createdAt": "2020-12-28 12:40:50"
+}
+```
+
+Response Json :
+```
+{
+    
+    "code": 200,
+    "errCode": null,
+    "messages": [
+        "OK"
+    ],
+    "errItems": null,
+    "result": null
+}
+```
+
+### 4.   Get Score List
+
+METHOD  :	POST  
+
+URL	    : http://localhost:8080/play/score/list?pageNum=1&pageSize=10
+
+Request Json : 
+```
+{
+   "player" : ["rash", "tes","Har"],
+    "beforeTime" : "2022-02-12",
+    "afterTime" : "2019-12-12"
+}
+```
+
+Response Json :
+```
+{
+     "code": 200,
+    "errCode": null,
+    "messages": [
+        "OK"
+    ],
+    "errItems": null,
+    "result": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "totalPage": 1,
+        "total": 6,
+        "list": [
+            {
+                "scoreId": 1,
+                "name": "Rashed",
+                "score": 500
+            },
+            {
+                "scoreId": 3,
+                "name": "Rashed",
+                "score": 300
+            },
+            {
+                "scoreId": 5,
+                "name": "Rashed",
+                "score": 270
+            },
+            {
+                "scoreId": 6,
+                "name": "Rashed",
+                "score": 10
+            },
+            {
+                "scoreId": 8,
+                "name": "Rashed",
+                "score": 10
+            },
+            {
+                "scoreId": 100,
+                "name": "testDelete",
+                "score": 300
+            }
+        ]
+    }
+}
+```
+
 
