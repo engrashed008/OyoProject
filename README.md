@@ -53,33 +53,10 @@ URL	    : http://localhost:8080/play/score/
 
 Comment : Requirement document describes that request and response should be delivered on payload.  So, method is POST and request id will be given in payload.
 
+Request Json : 
+```
+{
+   "id": 1
+}
+```
 
-====
-[source,json]
-----
-{"id":1,"content":"Hello, World!"}
-----
-====
-
-Provide a `name` query string parameter by visiting
-`http://localhost:8080/greeting?name=User`. Notice how the value of the `content`
-attribute changes from `Hello, World!` to `Hello, User!`, as the following listing shows:
-
-====
-[source,json]
-----
-{"id":2,"content":"Hello, User!"}
-----
-====
-
-This change demonstrates that the `@RequestParam` arrangement in `GreetingController` is
-working as expected. The `name` parameter has been given a default value of `World` but
-can be explicitly overridden through the query string.
-
-Notice also how the `id` attribute has changed from `1` to `2`. This proves that you are
-working against the same `GreetingController` instance across multiple requests and that
-its `counter` field is being incremented on each call as expected.
-
-== Note
-
-Congratulations! You have just developed a RESTful web service with Spring.
