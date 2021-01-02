@@ -41,7 +41,7 @@ Table Name: score
 | created_at	| DateTime  |-        | -           |CURRENT_DATETIME| -              |-            |        -    |
 | delete_flg	| tinyint   |1        | -           |0| -              |-            |        -    |
 
-“application.property” files contains the configuration information for DB setup. Please change password if needed. Property file resides inside resource package.
+“application.property” file contains the configuration information for DB setup. Please change password if needed. Property file resides inside resource package.
 
 ## API Documentation
 
