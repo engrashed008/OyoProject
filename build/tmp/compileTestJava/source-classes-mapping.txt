@@ -1,0 +1,6 @@
+com/sample/score/ScoreServiceTests.java
+ com.sample.score.ScoreServiceTests
+com/sample/score/ScoreControllerIntegrationTest.java
+ com.sample.score.ScoreControllerIntegrationTest
+com/sample/score/ScoreApplicationTest.java
+ com.sample.score.ScoreApplicationTest
