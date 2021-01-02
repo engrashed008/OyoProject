@@ -6,17 +6,15 @@
 :icons: font
 :source-highlighter: prettify
 
-This guide walks  through the process of creating a top score game sample project API service with REST convention.
+This guide walks you through the process of creating a "`Hello, World`" RESTful web
+service with Spring.
 
-== Project Title
+== What You Will Build
 
-Top Score Ranking
+You will build a service that will accept HTTP GET requests at
+`http://localhost:8080/greeting`.
 
-====
-
-== Getting Started
-
-This instruction will give some details insight of how to install, run and test the Top Score Ranking sample project. Both Unit tests and Integration tests have been executed on Postman and curl. Please have a look deployment note to know how to import and run the project and conduct test cases locally.
+It will respond with a JSON representation of a greeting, as the following listing shows:
 
 ====
 [source,json]
