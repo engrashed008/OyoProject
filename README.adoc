@@ -19,28 +19,14 @@ This instruction will give some details insight of how to install, run and test 
 
 == Tools and Technologies
 
-For all Spring applications, you should start with the https://start.spring.io[Spring
-Initializr]. The Initializr offers a fast way to pull in all the dependencies you need for
-an application and does a lot of the setup for you. This example needs only the Spring Web
-dependency.
-
-The following listing shows the `pom.xml` file that is created when you choose Maven:
-
-====
-[source,xml]
-----
-include::initial/pom.xml[]
-----
-====
-
-The following listing shows the `build.gradle` file that is created when you choose Gradle:
-
-====
-[source,text]
-----
-include::initial/build.gradle[]
-----
-====
+1.	Java 8 (1.8.0_211)
+2.	Gradle 6 (6.7.1)
+3.	IntelliJ ultimate edition 2020.3
+4.	Spring  boot 2.3.2
+5.	MySQL DB.
+6.	JUnit 5 
+7.	Postman (v.7.36.1)
+8.	MacOS (Big Sur)
 
 [[initial]]
 == Create a Resource Representation Class
