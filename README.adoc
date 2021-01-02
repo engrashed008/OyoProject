@@ -9,7 +9,7 @@
 This guide walks you through the process of creating a "`Hello, World`" RESTful web
 service with Spring.
 
-== What You Will Build
+== Project Title
 
 You will build a service that will accept HTTP GET requests at
 `http://localhost:8080/greeting`.
@@ -43,7 +43,7 @@ response, as the following listing shows:
 ----
 ====
 
-== What You Need
+== Getting Started
 
 :java_version: 1.8
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/prereq_editor_jdk_buildtools.adoc[]
@@ -115,7 +115,7 @@ NOTE: This application uses the https://github.com/FasterXML/jackson[Jackson JSO
 automatically marshal instances of type `Greeting` into JSON. Jackson is included by default by the web starter.
 ====
 
-== Create a Resource Controller
+== Tools and Technologies
 
 In Spring's approach to building RESTful web services, HTTP requests are handled by a
 controller. These components are identified by the
