@@ -49,7 +49,7 @@ Table Name: score
 
 METHOD  :	POST
 
-URL	    : http://localhost:8080/play/score/
+URL	    : `http://localhost:8080/play/score/`
 
 Comment : Requirement document describes that request and response should be delivered on payload.  So, method is POST and request id will be given in payload.
 
@@ -81,7 +81,7 @@ Response Json :
 
 METHOD  :	POST
 
-URL	    : http://localhost:8080/play/score/create
+URL	    : `http://localhost:8080/play/score/create`
 
 Request Json : 
 ```
@@ -110,7 +110,7 @@ Response Json :
 
 METHOD  :	DELETE
 
-URL	    : http://localhost:8080/play/score/delete
+URL	    : `http://localhost:8080/play/score/delete`
 
 Request Json : 
 ```
@@ -136,7 +136,7 @@ Response Json :
 
 METHOD  :	POST  
 
-URL	    : http://localhost:8080/play/score/list?pageNum=1&pageSize=10
+URL	    : `http://localhost:8080/play/score/list?pageNum=1&pageSize=10`
 
 Request Json : 
 ```
@@ -201,7 +201,7 @@ Response Json :
 
 METHOD  :	POST
 
-URL	    : http://localhost:8080/play/score/history
+URL	    : `http://localhost:8080/play/score/history`
 
 Request Json : 
 ```
