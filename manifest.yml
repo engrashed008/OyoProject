@@ -3,6 +3,6 @@ applications:
 - name: Top Score Project
   memory: 256M
   instances: 1
-  host: rest-service
+  host: top-score
   domain: guides.spring.io
   path: build/libs/top-Score-0.1.0.jar
