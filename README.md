@@ -1,12 +1,12 @@
-### Project Title
+## Project Title
 
 Top Score Ranking
 
-### Getting Started
+## Getting Started
 
 This instruction will give some details insight of how to install, run and test the Top Score Ranking sample project. Both Unit tests and Integration tests have been executed on Postman and curl. Please have a look deployment note to know how to import and run the project and conduct test cases locally.
 
-### Tools and Technologies
+## Tools and Technologies
 
 1.	Java 8 (1.8.0_211)
 2.	Gradle 6 (6.7.1)
@@ -17,7 +17,7 @@ This instruction will give some details insight of how to install, run and test 
 7.	Postman (v.7.36.1)
 8.	MacOS (Big Sur)
 
-### Deployment
+## Deployment
 
 1.	Download / Clone “Score Project” from GitHub.
 2.	Run IntelliJ and “open” project from IntelliJ
@@ -26,8 +26,9 @@ This instruction will give some details insight of how to install, run and test 
 5.	Right click on “GameApplication.java” class under “src -> main -> java -> com -> sample -> play” packages and click on “run”. Application will be started on local tomcat with port 8080.
 6.	To run Unit test, please right click on “ScoreServiceTests” class under “test -> java -> com -> sample -> play” packages and click on “run”. Also, individual test case can be run inside the “ScoreServiceTests” file.
 7.	To run Controller Integration test, please right click on “ScoreControllerIntegrationTest” class under “test -> java -> com -> sample -> play” packages and click on “run”.
+8. lombok may be required to enable annotation in IntelliJ
 
-### DB Table
+## DB Table
 
 DB Name: playscore
 
@@ -38,8 +39,8 @@ Table Name: score
 | score_id      | int       | 11      | -           |-           | Yes            | Yes         |  -          |
 | score         | int       |         | -           |0           | -              | --          |   -         |
 | name	        | Varchar   |100      | Yes         |-           | -              |-            | -           |
-| created_at	| DateTime  |-        | -           |CURRENT_DATETIME| -              |-            |        -    |
-| delete_flg	| tinyint   |1        | -           |0| -              |-            |        -    |
+| created_at	| DateTime  |-        | -           |-            | -              |-            | CURRENT_DATETIME|
+| delete_flg	| tinyint   |1        | -           |0| -              |-            |        -    | -             |
 
 “application.property” file contains the configuration information for DB setup. Please change password if needed. Property file resides inside resource package.
 
@@ -112,6 +113,8 @@ METHOD  :	DELETE
 
 URL	    : `http://localhost:8080/play/score/delete`
 
+Comment : Soft delete implemented. delete_flg is set 1 for deleted item(s). 
+
 Request Json : 
 ```
 {
@@ -137,6 +140,8 @@ Response Json :
 METHOD  :	POST  
 
 URL	    : `http://localhost:8080/play/score/list?pageNum=1&pageSize=10`
+
+Comment : Partial value can be inputted. 
 
 Request Json : 
 ```
@@ -203,6 +208,8 @@ METHOD  :	POST
 
 URL	    : `http://localhost:8080/play/score/history`
 
+Comment : Partial value can be inputted. 
+
 Request Json : 
 ```
 {
@@ -243,6 +250,8 @@ Response Json :
 3.	DateTime format “yyyy-MM-dd hh:mm:ss” is implemented.
 4.	In sample project, player name is used to fetch player score history. In real project it is assumed that player ID will be used to fetch history and other relevant cases.
 5.	Integration test conducted on existing score table. No separate configuration files or tables are used due to sample project.
+
+#### Thank you very much for your time!!
 
 
 
