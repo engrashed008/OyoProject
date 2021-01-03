@@ -148,7 +148,7 @@ public class ScoreServiceTests {
 
     @Test
     public void scoreListTest_NG() {
-        List<String> players = new ArrayList<String>();
+        List<String> players = new ArrayList<>();
         players.add("Player1");
         players.add("Player2");
         players.add("Player3");
@@ -183,7 +183,7 @@ public class ScoreServiceTests {
         listDto.add(scoreDto1);
         listDto.add(scoreDto2);
 
-        when(mapper.getScoreList(players, "2021-12-12", "2020-01-01")).thenReturn(listDto);
+        when(mapper.getScoreList(players, "2020-05-12", "2020-01-01")).thenReturn(listDto);
         try {
             List<ScoreReponseDto> scoreList = service.scoreList(param, 1, 10);
         } catch (Exception ex) {
