@@ -249,7 +249,7 @@ Response Json :
 4.	In sample project, player name is used to fetch player score history. In real project it is assumed that player ID will be used to fetch history and other relevant cases.
 5.	Integration test conducted on existing score table. No separate configuration files or tables are used due to sample project.
 
-###Thank you very much for your time!!
+#### Thank you very much for your time!!
 
 
 
