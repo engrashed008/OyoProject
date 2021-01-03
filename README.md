@@ -243,6 +243,7 @@ Response Json :
 3.	DateTime format “yyyy-MM-dd hh:mm:ss” is implemented.
 4.	In sample project, player name is used to fetch player score history. In real project it is assumed that player ID will be used to fetch history and other relevant cases.
 5.	Integration test conducted on existing score table. No separate configuration files or tables are used due to sample project.
+6. lombok may be required to enable annotation in IntelliJ
 
 
 
