@@ -139,6 +139,8 @@ METHOD  :	POST
 
 URL	    : `http://localhost:8080/play/score/list?pageNum=1&pageSize=10`
 
+Comment : Partial value can be inputted. 
+
 Request Json : 
 ```
 {
@@ -203,6 +205,8 @@ Response Json :
 METHOD  :	POST
 
 URL	    : `http://localhost:8080/play/score/history`
+
+Comment : Partial value can be inputted. 
 
 Request Json : 
 ```
