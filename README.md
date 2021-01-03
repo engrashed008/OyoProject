@@ -113,6 +113,8 @@ METHOD  :	DELETE
 
 URL	    : `http://localhost:8080/play/score/delete`
 
+Comment : Soft delete implemented. delete_flg is set 1 for deleted item(s). 
+
 Request Json : 
 ```
 {
