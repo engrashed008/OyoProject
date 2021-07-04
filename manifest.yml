@@ -1,8 +1,8 @@
 ---
 applications:
-- name: Top Score Project
+- name: User Management
   memory: 256M
   instances: 1
-  host: top-score
+  host: evite
   domain: guides.spring.io
-  path: build/libs/top-Score-0.1.0.jar
+  path: build/libs/evite-0.1.0.jar

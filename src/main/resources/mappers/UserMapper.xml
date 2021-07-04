@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sample.user.mapper.usermanagement.UserMapper">
+
+
+    <select id="getById" resultType="com.sample.user.entity.UserEntity">
+        SELECT *
+        FROM users
+        WHERE id = #{id} AND delete_flg = false
+    </select>
+
+    <update id="updateUser">
+        UPDATE users
+        set
+             name  = #{name},
+             comments  = #{comments}
+        WHERE id = #{id}
+    </update>
+
+    <update id="delete">
+        UPDATE users
+        set
+            delete_flg  = true
+        WHERE id = #{id}
+    </update>
+
+   <insert id="create">
+        INSERT INTO users (id, password, name, comments)
+        VALUES (#{id}, #{password}, #{name}, #{comments})
+    </insert>
+
+    <!--<select id="getByEmail" resultType="com.sample.user.entity.UserEntity">
+       SELECT *
+       FROM users
+       WHERE email = #{email}
+         AND delete_flg = false
+   </select>
+
+   <insert id="createUserEvent">
+       INSERT INTO user_events (email, event_id, created_at)
+       VALUES (#{email}, #{eventId}, CURRENT_TIMESTAMP)
+   </insert>
+
+   <select id="getUserEventByEmail" resultType="com.sample.user.dto.UserUpdateReq">
+       SELECT *
+       FROM user_events
+       WHERE email = #{email} AND event_id = #{eventId}
+         AND delete_flg = false
+   </select>
+
+   <update id="deleteUserEvent">
+       UPDATE user_events
+       SET delete_flg = true
+       WHERE email = #{email} and event_id=#{eventId}
+   </update>-->
+</mapper>

@@ -23,7 +23,7 @@ This instruction will give some details insight of how to install, run and test 
 2.	Run IntelliJ and “open” project from IntelliJ
 3.	Right click on “build.gradle” and click on “build”. If any problem, please close and open the project to ensure build is performed properly.
 4.	Create a MySQL DB “playscore” and create a table “score”. Table columns details are described on “DB Table” section.
-5.	Right click on “GameApplication.java” class under “src -> main -> java -> com -> sample -> play” packages and click on “run”. Application will be started on local tomcat with port 8080.
+5.	Right click on “EventManagementApplication.java” class under “src -> main -> java -> com -> sample -> play” packages and click on “run”. Application will be started on local tomcat with port 8080.
 6.	To run Unit test, please right click on “ScoreServiceTests” class under “test -> java -> com -> sample -> play” packages and click on “run”. Also, individual test case can be run inside the “ScoreServiceTests” file.
 7.	To run Controller Integration test, please right click on “ScoreControllerIntegrationTest” class under “test -> java -> com -> sample -> play” packages and click on “run”.
 8. lombok may be required to enable annotation in IntelliJ
