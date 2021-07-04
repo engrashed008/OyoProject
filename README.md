@@ -28,7 +28,7 @@ This instruction will give some details insight of how to install, run and test 
 
 ## DB Table
 
-DB Name: playscore
+DB Name: users
 
 Table Name: score
 
