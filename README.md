@@ -23,7 +23,7 @@ This instruction will give some details insight of how to install, run and test 
 2.	Run IntelliJ and “open” project from IntelliJ
 3.	Right click on “build.gradle” and click on “build”. If any problem, please close and open the project to ensure build is performed properly.
 4.	Create a MySQL DB “playscore” and create a table “score”. Table columns details are described on “DB Table” section.
-5.	Right click on “UserManagementApplication.java” class under “src -> main -> java -> com -> sample -> play” packages and click on “run”. Application will be started on local tomcat with port 8080.
+5.	Right click on “UserManagementApplication.java” class under “src -> main -> java -> com -> sample -> user” packages and click on “run”. Application will be started on local tomcat with port 8080.
 8. lombok may be required to enable annotation in IntelliJ
 
 ## DB Table
