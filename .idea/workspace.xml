@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30fd70ff-ddf7-4e23-b70b-fd5d907bffbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/EventManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/ErrorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/dto/DeleteParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/dto/UpdateReqParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/dto/UserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/dto/UserRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/dto/UserUpdateReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/mapper/usermanagement/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/resonse/UserUpdateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/utils/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-service.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evite/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/Homework_for_all_the_DevOps_.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/EventManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/EventManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/ErrorStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/ObjectMapperHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/ObjectMapperHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/core/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/AddEventParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/AddEventParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/CreateReqParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/CreateReqParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/DeleteEventParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/DeleteEventParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/DeleteParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/DeleteParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/UpdateReqParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/UpdateReqParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/UserRequestParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/dto/UserRequestParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/entity/EventEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/entity/EventEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/entity/UserEventEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/entity/UserEventEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/enums/ErrorLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/enums/ErrorLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/mapper/eventmanagement/EventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/mapper/eventmanagement/EventMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/mapper/eventmanagement/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/mapper/eventmanagement/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/AddEventResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/AddEventResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/AllScoreResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/AllScoreResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/EventResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/EventResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/EventResponseListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/EventResponseListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/PlayerHistoryResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/PlayerHistoryResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/UserResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/UserResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/UserResponseListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/response/UserResponseListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/java/com/sample/evite/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/resources/mappers/EventMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/resources/mappers/EventMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/test/java/com/sample/evite/EventServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/test/java/com/sample/evite/EventServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evite/src/test/java/com/sample/evite/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/evite/src/test/java/com/sample/evite/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/GameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/UserManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/controller/ScoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/core/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/core/CommonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/core/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/core/ErrorStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/core/ObjectMapperHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/ObjectMapperHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/core/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/core/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/dto/CreateReqParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/dto/DeleteParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/dto/NameReqParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/dto/ScoreListReqParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/dto/ScoreReqParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/entity/ScoreEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/enums/ErrorLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/user/enums/ErrorLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/mapper/playscore/ScoreMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/resonse/AllScoreResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/resonse/PlayerHistoryResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/resonse/ScoreReponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/service/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/play/service/ScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ScoreMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/score/ScoreApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/score/ScoreControllerIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/score/ScoreServiceTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Event Management" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Event Management" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Event Management" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Event Management" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1muYRUCabQLHSCTpRtCtN4od3ry" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mappers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sample.user.controller" />
+      <recent name="com.sample.play.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GameApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sample.evite.EventServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sample.evite.UserServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTest.addUserToEventTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sample.evite.UserServiceTest.addUserToEventTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTest.deleteUserFromEventTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sample.evite.UserServiceTest.deleteUserFromEventTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EventManagementApplicationTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Event_Management.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.evite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sample.evite.EventManagementApplicationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Event_Management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sample.user.UserManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EventServiceTest" />
+        <item itemvalue="Gradle.UserServiceTest" />
+        <item itemvalue="Spring Boot.EventManagementApplicationTest" />
+        <item itemvalue="Gradle.UserServiceTest.deleteUserFromEventTest" />
+        <item itemvalue="Gradle.UserServiceTest.addUserToEventTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30fd70ff-ddf7-4e23-b70b-fd5d907bffbe" name="Default Changelist" comment="" />
+      <created>1610344938041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610344938041</updated>
+      <workItem from="1610344944958" duration="42000" />
+      <workItem from="1610345011004" duration="426000" />
+      <workItem from="1610345443976" duration="8955000" />
+      <workItem from="1610411733736" duration="5158000" />
+      <workItem from="1610420978433" duration="513000" />
+      <workItem from="1610421545673" duration="188000" />
+      <workItem from="1610421739851" duration="959000" />
+      <workItem from="1610424395202" duration="279000" />
+      <workItem from="1610424680699" duration="4148000" />
+      <workItem from="1610435193894" duration="8730000" />
+      <workItem from="1610446115817" duration="4182000" />
+      <workItem from="1610497396326" duration="14293000" />
+      <workItem from="1610530922690" duration="994000" />
+      <workItem from="1625364253520" duration="13963000" />
+      <workItem from="1625381946892" duration="1056000" />
+      <workItem from="1625395551772" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit to repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit to repository" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/core/ServiceException.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/EventService.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/EventService.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/UserService.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/UserService.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/core/EmailService.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/UserService.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/UserService.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/service/UserService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/utils/Utility.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/utils/Utility.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sample/user/mapper/usermanagement/UserMapper.java</url>
+          <line>18</line>
+          <properties class="com.sample.user.mapper.usermanagement.UserMapper" method="create" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
