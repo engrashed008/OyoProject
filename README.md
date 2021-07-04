@@ -1,6 +1,6 @@
 ## Project Title
 
-Top Score Ranking
+user management project
 
 ## Getting Started
 
